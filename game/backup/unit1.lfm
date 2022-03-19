@@ -1,0 +1,49 @@
+object Form1: TForm1
+  Left = 717
+  Height = 432
+  Top = 155
+  Width = 533
+  Caption = 'Form1'
+  ClientHeight = 432
+  ClientWidth = 533
+  Color = 16371334
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object BitBtn1: TBitBtn
+    Left = 184
+    Height = 38
+    Top = 80
+    Width = 160
+    Caption = 'Начать игру'
+    OnClick = BitBtn1Click
+    TabOrder = 0
+  end
+  object BitBtn2: TBitBtn
+    Left = 184
+    Height = 38
+    Top = 136
+    Width = 160
+    Caption = 'Настройки'
+    OnClick = BitBtn2Click
+    TabOrder = 1
+  end
+  object BitBtn3: TBitBtn
+    Left = 184
+    Height = 38
+    Top = 192
+    Width = 160
+    Caption = 'Правила игра'
+    OnClick = BitBtn3Click
+    TabOrder = 2
+  end
+  object BitBtn4: TBitBtn
+    Left = 184
+    Height = 38
+    Top = 248
+    Width = 160
+    Caption = 'Выход'
+    OnClick = BitBtn4Click
+    TabOrder = 3
+  end
+end
